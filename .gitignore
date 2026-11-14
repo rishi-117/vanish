@@ -1,0 +1,26 @@
+# Build output
+target/
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local overrides — never commit real endpoints or secrets
+.env
+.env.local
+.env.*.local
